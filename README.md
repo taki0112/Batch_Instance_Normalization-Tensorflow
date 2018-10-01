@@ -37,6 +37,21 @@ with tf.variable_scope('network') :
     x = relu(x)
 ```
 
+## Distribution of ρ
+![distribution](./assets/distribution.png)
+
+## Results
+### Classification
+![cls](./assets/cls.png)
+![cls2](./assets/cls2.png)
+
+## Domain Adaptation
+![adaptation](./assets/adaptaion.png)
+
+## Style Transfer
+![transfer](./assets/transfer.png)
+![transfer_image](./assets/transfer_image.png)
+
 ## Related works
 * [Switchable_Normalization](https://github.com/taki0112/Switchable_Normalization-Tensorflow)
 
