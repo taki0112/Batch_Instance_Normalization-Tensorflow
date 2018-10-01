@@ -1,7 +1,7 @@
 # Batch_Instance_Normalization-Tensorflow
 Simple Tensorflow implementation of [Batch-Instance Normalization](https://arxiv.org/abs/1805.07925)
 
-## Simple Code
+## Code
 ```python
 
 import tensorflow as tf
@@ -27,6 +27,18 @@ def batch_instance_norm(x, scope='batch_instance_norm'):
         return x_hat
         
 ```
+
+## Usage
+
+```python
+with tf.variable_scope('network') :
+    x = conv(x, scope='conv_0')
+    x = batch_instance_norm(x, scope='bin_norm_0')
+    x = relu(x)
+```
+
+## Related works
+* [Switchable_Normalization](https://github.com/taki0112/Switchable_Normalization-Tensorflow)
 
 ## Author
 Junho Kim
