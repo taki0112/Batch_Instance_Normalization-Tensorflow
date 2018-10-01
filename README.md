@@ -1,5 +1,5 @@
 # Batch_Instance_Normalization-Tensorflow
-Simple Tensorflow implementation of [Batch-Instance Normalization](https://arxiv.org/abs/1805.07925)
+Simple Tensorflow implementation of [Batch-Instance Normalization (NIPS 2018)](https://arxiv.org/abs/1805.07925)
 
 ## Code
 ```python
